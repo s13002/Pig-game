@@ -58,7 +58,7 @@ window.onload=function(){
     
     game.onload = function(){
     var scene = game.rootScene; 
-        scene.backgroundColor = "white";//背景                
+        scene.backgroundColor = "green";//背景                
     
    //熊移動
     var sprite = new Sprite(32, 32);
