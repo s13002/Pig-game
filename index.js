@@ -1,6 +1,6 @@
 enchant();
 
-bom = Class.create(Sprite,{ // Spriteクラスを継承
+pig = Class.create(Sprite,{ // Spriteクラスを継承
  initialize:function(x,y){ //初期化する
    Sprite.call(this,16,16); //Spriteオブジェクトを初期化
    this.image = game.assets['http://jsrun.it/assets/z/0/M/1/z0M1i.gif'];
