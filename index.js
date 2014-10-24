@@ -73,30 +73,30 @@ window.onload=function(){
     
         
           //砂川作成
-     		pig1 =new bom(0,0);
+     		pig1 =new pig(0,0);
        		pig1.addEventListener('enterframe',function(){
             if(this.intersect(sprite))
 		    game.end();
         	});
-     		pig2 =new bom(0,0);
+     		pig2 =new pig(0,0);
        		pig2.addEventListener('enterframe',function(){
             if(this.intersect(sprite)) 
 		    game.end();
         	});
                 
-     		pig3 =new bom(0,0);
+     		pig3 =new pig(0,0);
        		pig3.addEventListener('enterframe',function(){
             if(this.intersect(sprite))  
 		    game.end();
         	});
                 
-     		pig4 =new bom(0,0);
+     		pig4 =new pig(0,0);
        		pig4.addEventListener('enterframe',function(){
             if(this.intersect(sprite))
 		    game.end();
         	});
         	
-		pig5 =new bom(0,0);
+		pig5 =new pig(0,0);
                 pig5.addEventListener('enterframe',function(){
             if(this.intersect(sprite))
                     game.end();
